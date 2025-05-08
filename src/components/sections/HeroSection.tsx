@@ -41,7 +41,7 @@ const HeroSection = () => {
             <div className="bg-white rounded-lg shadow-xl p-6">
               <h2 className="text-2xl font-bold text-blue-900 mb-4">Make an Appointment</h2>
               <p className="text-gray-600 mb-6">
-                Fill out the form below and we'll contact you to confirm your appointment.
+                Fill out the form below and we&apos;ll contact you to confirm your appointment.
               </p>
               <AppointmentForm />
             </div>

@@ -50,8 +50,8 @@ const TestimonialsSection = () => {
         <FadeIn className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">What Our Patients Say</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We're proud to have helped thousands of patients achieve healthier, more beautiful smiles.
-            Here's what some of them have to say about their experience with us.
+            We&apos;re proud to have helped thousands of patients achieve healthier, more beautiful smiles.
+            Here&apos;s what some of them have to say about their experience with us.
           </p>
         </FadeIn>
 

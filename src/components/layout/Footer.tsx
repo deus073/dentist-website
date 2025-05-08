@@ -17,7 +17,7 @@ const Footer = () => {
               <span className="text-white">Dental</span>
             </div>
             <p className="text-blue-100 mb-6">
-              Professional dental care for your entire family. We're committed to providing 
+              Professional dental care for your entire family. We&apos;re committed to providing 
               the highest quality dental services in a comfortable environment.
             </p>
             <div className="flex space-x-4">

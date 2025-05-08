@@ -18,7 +18,7 @@ const LocationSection = () => {
         <FadeIn className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Find Us</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We're conveniently located in central București. Visit us for your dental care needs.
+            We&apos;re conveniently located in central București. Visit us for your dental care needs.
           </p>
         </FadeIn>
 
