@@ -1,9 +1,8 @@
 "use client";
 
 import React from 'react';
-import Image from 'next/image';
-import { FaTooth, FaSmile, FaTeeth } from 'react-icons/fa';
 import FadeIn from '../animations/FadeIn';
+import { FaTooth, FaSmile, FaTeeth } from 'react-icons/fa';
 
 const services = [
   {

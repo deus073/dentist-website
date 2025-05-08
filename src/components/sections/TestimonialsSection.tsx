@@ -1,9 +1,9 @@
 "use client";
 
 import React from 'react';
-import Image from 'next/image';
 import { FaQuoteLeft } from 'react-icons/fa';
 import FadeIn from '../animations/FadeIn';
+// Image import removed as it's not being used
 
 const testimonials = [
   {

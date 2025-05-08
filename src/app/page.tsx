@@ -1,5 +1,5 @@
 import React from 'react';
-import dynamic from 'next/dynamic';
+// Remove unused dynamic import
 import TopBar from '@/components/layout/TopBar';
 import Navbar from '@/components/layout/Navbar';
 import StickyCallBar from '@/components/layout/StickyCallBar';

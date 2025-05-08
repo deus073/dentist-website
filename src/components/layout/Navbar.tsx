@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
-import Image from 'next/image';
+// Image import removed as it's not being used
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
