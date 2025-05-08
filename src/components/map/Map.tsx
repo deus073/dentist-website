@@ -18,7 +18,8 @@ const Map: React.FC<MapProps> = ({ address, coordinates }) => {
       // Only run this on the client side
       if (typeof window !== 'undefined') {
         // Fix the icon paths
-        delete L.Icon.Default.prototype._getIconUrl;
+        // Use type assertion to avoid TypeScript error
+        delete (L.Icon.Default.prototype as any)._getIconUrl;
         L.Icon.Default.mergeOptions({
           iconUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png',
           iconRetinaUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png',
