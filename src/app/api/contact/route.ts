@@ -19,8 +19,8 @@ export async function POST(request: NextRequest) {
 
     // Send email using Resend
     const data = await resend.emails.send({
-      from: 'Appointment <appointments@smiledental.ro>',
-      to: ['contact@smiledental.ro'], // Replace with your email
+      from: 'Appointment <delivered@resend.dev>',
+      to: ['deus_073@yahoo.com'], // Replace with your email
       subject: 'New Appointment Request',
       text: `
         Name: ${name}
